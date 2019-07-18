@@ -42,5 +42,9 @@ def using_delete(arr, element)
   arr.delete element
 end
 
-def using_delete_at(arr, element)
+def using_delete_at(arr, nth)
+  arr.delete_at nth
+end
+
+
   
